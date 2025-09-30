@@ -1,6 +1,6 @@
 using System;
 
-namespace Homework3_1
+namespace task_3.cs
 {
     enum University
     {
