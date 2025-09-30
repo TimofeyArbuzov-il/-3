@@ -1,11 +1,11 @@
 using System;
 
-namespace Exercise3_1
+namespace task_2.cs
 {
     enum BankAccountType
     {
-        Current,   // Текущий счет
-        Savings    // Сберегательный счет
+        Current,   
+        Savings    
     }
 
     class Program
