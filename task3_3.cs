@@ -1,19 +1,16 @@
-// Создаем перечисление для ВУЗов
 enum University
 {
-    VUZKGU, // ВУЗКГУ
-    KAI,     // КАИ
-    KHTI     // КХТИ
+    VUZKGU, 
+    KAI,     
+    KHTI     
 }
 
-// Создаем структуру для работника
 struct Worker
 {
-    public string Name;      // Имя работника
-    public University Uni;   // ВУЗ, в котором учился работник
+    public string Name;      
+    public University Uni;   
 }
 
-// Создаем переменную типа Worker и заполняем ее
 Worker worker = new Worker
 {
     Name = "Иван Иванов",
